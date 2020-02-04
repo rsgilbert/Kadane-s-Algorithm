@@ -126,6 +126,9 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="C:/Users/GilbertS/CLionProjects/hackerrank/kad.cpp">
+			<Option target="hackerrank"/>
+		</Unit>
 		<Unit filename="C:/Users/GilbertS/CLionProjects/hackerrank/kadane.cpp">
 			<Option target="hackerrank"/>
 			<Option target="kadane"/>

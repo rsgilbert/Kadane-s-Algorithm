@@ -3,5 +3,5 @@ project(hackerrank)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(hackerrank main.cpp kadane.cpp)
+add_executable(hackerrank main.cpp kadane.cpp kad.cpp)
 add_executable(kadane kadane.cpp)

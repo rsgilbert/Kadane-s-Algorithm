@@ -137,6 +137,33 @@ kadane\fast:
 	$(MAKE) -f CMakeFiles\kadane.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\kadane.dir\build
 .PHONY : kadane\fast
 
+kad.obj: kad.cpp.obj
+
+.PHONY : kad.obj
+
+# target to build an object file
+kad.cpp.obj:
+	$(MAKE) -f CMakeFiles\hackerrank.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\hackerrank.dir\kad.cpp.obj
+.PHONY : kad.cpp.obj
+
+kad.i: kad.cpp.i
+
+.PHONY : kad.i
+
+# target to preprocess a source file
+kad.cpp.i:
+	$(MAKE) -f CMakeFiles\hackerrank.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\hackerrank.dir\kad.cpp.i
+.PHONY : kad.cpp.i
+
+kad.s: kad.cpp.s
+
+.PHONY : kad.s
+
+# target to generate assembly for a file
+kad.cpp.s:
+	$(MAKE) -f CMakeFiles\hackerrank.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\hackerrank.dir\kad.cpp.s
+.PHONY : kad.cpp.s
+
 kadane.obj: kadane.cpp.obj
 
 .PHONY : kadane.obj
@@ -204,6 +231,9 @@ help:
 	@echo ... hackerrank
 	@echo ... kadane
 	@echo ... edit_cache
+	@echo ... kad.obj
+	@echo ... kad.i
+	@echo ... kad.s
 	@echo ... kadane.obj
 	@echo ... kadane.i
 	@echo ... kadane.s

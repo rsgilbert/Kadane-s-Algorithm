@@ -96,19 +96,40 @@ CMakeFiles\hackerrank.dir\kadane.cpp.s: cmake_force
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\hackerrank.dir\kadane.cpp.s /c C:\Users\GilbertS\CLionProjects\hackerrank\kadane.cpp
 <<
 
+CMakeFiles\hackerrank.dir\kad.cpp.obj: CMakeFiles\hackerrank.dir\flags.make
+CMakeFiles\hackerrank.dir\kad.cpp.obj: ..\kad.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\GilbertS\CLionProjects\hackerrank\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/hackerrank.dir/kad.cpp.obj"
+	C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1424~1.283\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\hackerrank.dir\kad.cpp.obj /FdCMakeFiles\hackerrank.dir\ /FS -c C:\Users\GilbertS\CLionProjects\hackerrank\kad.cpp
+<<
+
+CMakeFiles\hackerrank.dir\kad.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hackerrank.dir/kad.cpp.i"
+	C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1424~1.283\bin\Hostx86\x86\cl.exe > CMakeFiles\hackerrank.dir\kad.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\GilbertS\CLionProjects\hackerrank\kad.cpp
+<<
+
+CMakeFiles\hackerrank.dir\kad.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hackerrank.dir/kad.cpp.s"
+	C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1424~1.283\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\hackerrank.dir\kad.cpp.s /c C:\Users\GilbertS\CLionProjects\hackerrank\kad.cpp
+<<
+
 # Object files for target hackerrank
 hackerrank_OBJECTS = \
 "CMakeFiles\hackerrank.dir\main.cpp.obj" \
-"CMakeFiles\hackerrank.dir\kadane.cpp.obj"
+"CMakeFiles\hackerrank.dir\kadane.cpp.obj" \
+"CMakeFiles\hackerrank.dir\kad.cpp.obj"
 
 # External object files for target hackerrank
 hackerrank_EXTERNAL_OBJECTS =
 
 hackerrank.exe: CMakeFiles\hackerrank.dir\main.cpp.obj
 hackerrank.exe: CMakeFiles\hackerrank.dir\kadane.cpp.obj
+hackerrank.exe: CMakeFiles\hackerrank.dir\kad.cpp.obj
 hackerrank.exe: CMakeFiles\hackerrank.dir\build.make
 hackerrank.exe: CMakeFiles\hackerrank.dir\objects1.rsp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\GilbertS\CLionProjects\hackerrank\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable hackerrank.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\GilbertS\CLionProjects\hackerrank\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable hackerrank.exe"
 	"C:\Program Files\JetBrains\CLion 2019.3.2\bin\cmake\win\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\hackerrank.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100183~1.0\x86\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100183~1.0\x86\mt.exe --manifests  -- C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1424~1.283\bin\Hostx86\x86\link.exe /nologo @CMakeFiles\hackerrank.dir\objects1.rsp @<<
  /out:hackerrank.exe /implib:hackerrank.lib /pdb:C:\Users\GilbertS\CLionProjects\hackerrank\cmake-build-debug\hackerrank.pdb /version:0.0  /machine:X86 /debug /INCREMENTAL /subsystem:console kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib 
 <<

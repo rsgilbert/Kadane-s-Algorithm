@@ -1,4 +1,5 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/hackerrank.dir/kad.cpp.obj"
   "CMakeFiles/hackerrank.dir/kadane.cpp.obj"
   "CMakeFiles/hackerrank.dir/main.cpp.obj"
   "hackerrank.exe"
