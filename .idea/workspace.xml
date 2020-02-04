@@ -13,22 +13,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dba373e4-7400-4aad-815d-18c0a2a31c36" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/GilbertS.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/hackerrank.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/hackerrank.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/hackerrank.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/hackerrank.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/hackerrank.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/hackerrank.dir/cmake_clean.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/hackerrank.dir/objects1.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/hackerrank.dir/objects1.rsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/hackerrank.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/hackerrank.dir/progress.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/kadane.dir/kadane.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/kadane.dir/kadane.cpp.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/kadane.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/kadane.dir/progress.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/kadane.dir/vc140.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/kadane.dir/vc140.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/hackerrank.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/hackerrank.cbp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/kadane.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/kadane.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/kadane.ilk" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/kadane.ilk" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/kadane.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/kadane.pdb" afterDir="false" />
@@ -107,29 +95,49 @@
       <updated>1580725752266</updated>
       <workItem from="1580725754028" duration="860000" />
       <workItem from="1580738544945" duration="9000000" />
-      <workItem from="1580807582455" duration="553000" />
+      <workItem from="1580807582455" duration="1986000" />
     </task>
+    <task id="LOCAL-00001" summary="ADded kad">
+      <created>1580808410445</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1580808410445</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="ADded kad" />
+    <option name="LAST_COMMIT_MESSAGE" value="ADded kad" />
+  </component>
   <component name="WindowStateProjectService">
-    <state width="617" height="193" key="GridCell.Tab.0.bottom" timestamp="1580750703644">
+    <state x="0" y="0" key="CommitChangelistDialog2" timestamp="1580808408525">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="617" height="193" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1580750703644" />
-    <state width="617" height="193" key="GridCell.Tab.0.center" timestamp="1580750703644">
+    <state x="0" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1580808408525" />
+    <state width="618" height="193" key="GridCell.Tab.0.bottom" timestamp="1580809160061">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="617" height="193" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1580750703644" />
-    <state width="617" height="193" key="GridCell.Tab.0.left" timestamp="1580750703643">
+    <state width="618" height="193" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1580809160061" />
+    <state width="618" height="193" key="GridCell.Tab.0.center" timestamp="1580809160061">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="617" height="193" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1580750703643" />
-    <state width="617" height="193" key="GridCell.Tab.0.right" timestamp="1580750703644">
+    <state width="618" height="193" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1580809160061" />
+    <state width="618" height="193" key="GridCell.Tab.0.left" timestamp="1580809160060">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="617" height="193" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1580750703644" />
+    <state width="618" height="193" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1580809160060" />
+    <state width="618" height="193" key="GridCell.Tab.0.right" timestamp="1580809160061">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="618" height="193" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1580809160061" />
+    <state x="1" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1580809000733">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="1" y="1" width="672" height="678" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1580809000733" />
   </component>
 </project>

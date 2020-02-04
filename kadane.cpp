@@ -14,15 +14,14 @@ using namespace std;
  * sub-array with maximum sum.
  */
 
-void printArray(vector<int> ar) {
-    for(int i: ar) {
-        cout << i << " ";
-    }
-    cout << endl;
+int sumArray(vector<int> vi) {
+    return accumulate(vi.begin(), vi.end(), 0);
 }
 
-int sumArray (vector<int> arr) {
-    return accumulate(arr.begin(), arr.end(), 0);
+void printArray(vector<int> vi) {
+    cout << "{ " ;
+    for(int i: vi) cout << i << " ";
+    cout << " }";
 }
 
 int main() {
@@ -32,26 +31,19 @@ int main() {
     int bestSum = sumArray(arr);
     vector<int> bestArray = arr;
 
-    int size = arr.size();
-
-    for(int idx = 0; idx < size; idx ++) {
-        for(int lastIdx = idx + 1; lastIdx <= size; lastIdx ++) {
-            cout << idx << " LastIdx " << lastIdx << endl;
+    // complexity of O(n^3)
+    for(int idx = 0; idx < arr.size(); idx++) {
+        for(int lastIdx = idx + 1; lastIdx <= arr.size(); lastIdx ++) {
             vector<int> subArray = { arr.begin() + idx, arr.begin() + lastIdx };
             int sum = sumArray(subArray);
-            if(sum > bestSum ){
+            if(sum > bestSum) {
                 bestSum = sum;
                 bestArray = subArray;
             }
         }
     }
 
-
     printArray(bestArray);
-    cout << bestSum;
-
-
-
 
 
     return  0;
