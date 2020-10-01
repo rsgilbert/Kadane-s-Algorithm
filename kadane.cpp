@@ -1,52 +1,35 @@
-//
-// Created by GilbertS on 2/3/2020.
-//
-# include <iostream>
-# include <vector>
-# include <numeric>
+#include<iostream> 
+#include<climits> 
+using namespace std; 
+  
+int maxSubArraySum(int a[], int size) 
+{ 
+    int max_so_far = 0, max_ending_here = 0; 
+  
+    for (int i = 0; i < size; i++) 
+    { 
+        max_ending_here = max_ending_here + a[i]; 
+        if (max_so_far < max_ending_here) 
+            max_so_far = max_ending_here; 
+  
+        if (max_ending_here < 0) 
+            max_ending_here = 0; 
+    } 
+    return max_so_far; 
+} 
+  
 
-
-using namespace std;
-
-/**
- * Challenge 3, Kadane's algorithm
- * Given an array arr of N integers. Find the contiguous
- * sub-array with maximum sum.
- */
-
-int sumArray(vector<int> vi) {
-    return accumulate(vi.begin(), vi.end(), 0);
-}
-
-void printArray(vector<int> vi) {
-    cout << "{ " ;
-    for(int i: vi) cout << i << " ";
-    cout << " }";
-}
-
-int main() {
-
-    vector<int> arr = { 2, -9, 3, 14, -2 };
-
-    int bestSum = sumArray(arr);
-    vector<int> bestArray = arr;
-
-    // complexity of O(n^3)
-    for(int idx = 0; idx < arr.size(); idx++) {
-        for(int lastIdx = idx + 1; lastIdx <= arr.size(); lastIdx ++) {
-            vector<int> subArray = { arr.begin() + idx, arr.begin() + lastIdx };
-            int sum = sumArray(subArray);
-            if(sum > bestSum) {
-                bestSum = sum;
-                bestArray = subArray;
-            }
-        }
+int main() 
+{ 
+   int n;
+    cin>>n;
+    int arr[n];
+    int i;
+    for(i=0;i<n;i++)
+    {
+        cin>>arr[i];
     }
-
-    printArray(bestArray);
-
-
-    return  0;
-}
-
-
+    int max_sum = maxSubArraySum(arr, n); 
+    cout << "Maximum contiguous sum is " << max_sum; 
+    return 0; 
+} 
